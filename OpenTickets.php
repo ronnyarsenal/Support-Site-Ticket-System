@@ -60,7 +60,7 @@
         <form action='delete.php' method = 'post'>
             <?php
 
-           $con = mysqli_connect('localhost','root','','tickets'); 
+           $con = mysqli_connect('***','***','***','tickets'); 
             if (!$con) 
             { 
             die('Could not connect to MySQL: ' . mysqli_error()); 
