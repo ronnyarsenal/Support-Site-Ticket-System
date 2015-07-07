@@ -7,7 +7,7 @@
 </head>
     <body>
     <?php
-$con = mysqli_connect('***','***','***','tickets'); //edited out for security reasons.
+$con = mysqli_connect('localhost','root','','tickets'); 
 if (!$con) { 
     die('Could not connect to MySQL: ' . mysqli_error()); 
 } 
@@ -62,8 +62,7 @@ $result_set = mysqli_query($con, "SELECT * FROM `tickets`.`closedtickets`");
     <div align='center' id="main"> <a name="TemplateInfo"></a>
       <div class="box">
         <h1>Closed Tickets</h1>
-      </div>
-        <form action='Finalize.php' method = "post">
+               <form action='Finalize.php' method = "post">
     <table border ="1" style='background-color: #FFFFFF'></table>
 <?php
 
@@ -95,7 +94,7 @@ echo"</Table>";
 
 ?>
         </form>
-        <br />
+      </div>         
       </div>
     </div>
     <br />
