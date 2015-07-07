@@ -71,7 +71,7 @@
 <div id="footer-wrap">
   <div class="footer-left">
    <p class="align-left"></p>
-  </div>;
+  </div>
   <div class="footer-right">      
 <p></p>
  </div>
