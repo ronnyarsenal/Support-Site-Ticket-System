@@ -1,0 +1,2 @@
+I'm currently working on gathering screenshots and finding a method of uploading them. 
+Also a key thing to note is that I used databases and tables, there will be no connectivity unless the queries are called exactly.
